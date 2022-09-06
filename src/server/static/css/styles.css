@@ -1,0 +1,17 @@
+div{
+margin: 0px;}
+
+#settings {
+    border-color: black;
+    border-style: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 2px;
+    width: 100%;
+}
+.settings-chapter {
+    border-color: black;
+    border-top-style: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 2px;
+    /* width: 100%; */
+}

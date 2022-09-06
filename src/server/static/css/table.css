@@ -1,0 +1,49 @@
+/* my css for table */
+
+.hidden {
+    display: none;
+}
+
+.tableBasic {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableBasic td,
+.tableBasic th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    white-space: nowrap;
+}
+
+/* only works if there are no hidden rows - moved to js*/
+/* .tableBasic tr:nth-child(even) {
+    background-color: #f2f2f2;
+} */
+
+.evenRows {
+    background-color: #f2f2f2;
+}
+
+.tableBasic tr:hover {
+    background-color: #ddd;
+}
+
+.tableBasic th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04aa6d;
+    color: white;
+}
+
+
+/* inner table */
+.tableInner th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1d04aa;
+    color: white;
+}

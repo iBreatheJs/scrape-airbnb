@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, minimal-ui"> -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="green">
+
+  <title>Kraken Dashboard</title>
+  <meta name="description" content="Kraken Dashboard">
+  <meta name="author" content="">
+
+  <meta property="og:title" content="Kraken Dashboard">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:description" content="Kraken Dashboard">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- TODO: dynamic loading from js does not work rn - fix that -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/table.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+  <!-- your content here... -->
+  <h1 id="test">airbnb fk ur search</h1>
+  <button id="update">update data</button>
+  <table id="table" class="tableBasic"></table>
+
+
+  <script type="module" src="{{ url_for('static', filename='js/airbnb.js') }}"></script>
+
+</body>
+
+</html>
